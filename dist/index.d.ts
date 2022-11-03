@@ -1,0 +1,15 @@
+export { TnstrackingByConsignment } from "./definitions/TnstrackingByConsignment";
+export { TnstrackingByConsignmentResponse } from "./definitions/TnstrackingByConsignmentResponse";
+export { Parcel } from "./definitions/Parcel";
+export { DropOffPoint } from "./definitions/DropOffPoint";
+export { Events } from "./definitions/Events";
+export { Receiver } from "./definitions/Receiver";
+export { TnscontactRequest } from "./definitions/TnscontactRequest";
+export { Parameters } from "./definitions/Parameters";
+export { TnscontactRequestResponse } from "./definitions/TnscontactRequestResponse";
+export { TnscontactInterRequest } from "./definitions/TnscontactInterRequest";
+export { Parameters1 } from "./definitions/Parameters1";
+export { TnscontactInterRequestResponse } from "./definitions/TnscontactInterRequestResponse";
+export { createClientAsync, Client } from "./client";
+export { TrackingServices } from "./services/TrackingServices";
+export { TrackingServicesImplPort } from "./ports/TrackingServicesImplPort";

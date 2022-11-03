@@ -1,0 +1,27 @@
+{
+  "name": "@agriconomie-oms/tnt-tracking",
+  "version": "1.0.0",
+  "description": "SOAP client for TNT tracking webservice",
+  "author": "Agriconomie <tech@agriconomie.com>",
+  "keywords": [
+    "typescript",
+    "TNT tracking",
+    "@agriconomie-oms/tnt-tracking"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "generate": "ts-node scripts/generate.ts && npm run build"
+  },
+  "dependencies": {
+    "soap": "^0.45.0"
+  },
+  "devDependencies": {
+    "@types/sax": "^1.2.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4",
+    "wsdl-tsclient": "^1.4.0"
+  }
+}
